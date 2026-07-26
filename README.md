@@ -1,2 +1,2 @@
 # SIEM-lab-portfolio
-This is my SIEM Tools EXP
+A hands-on cybersecurity portfolio covering Snort, Splunk, Wazuh, UFW and Microsoft Sentinel labs.
