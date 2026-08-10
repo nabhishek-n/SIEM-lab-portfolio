@@ -1,0 +1,35 @@
+SNORT LOCAL ALERT LAB - TEST RESULTS
+
+Snort Version: Snort++ 3.12.2.0
+Operating System: Ubuntu 24.04.4 LTS
+Interface: lo
+
+ICMP ALERT
+SID: 1000001
+Revision: 2
+Message: LOCAL ICMP Ping Detected
+
+Example:
+
+[1:1000001:2] "LOCAL ICMP Ping Detected"
+{ICMP} 192.168.168.134 -> 192.168.168.134
+
+SSH ALERT
+SID: 1000003
+Revision: 2
+Message: LOCAL SSH Connection Attempt Detected
+
+Example:
+
+[1:1000003:2] "LOCAL SSH Connection Attempt Detected"
+{TCP} 127.0.0.1:59984 -> 127.0.0.1:22
+
+HTTP ALERT
+SID: 1000004
+Revision: 2
+Message: LOCAL HTTP Connection Attempt Detected
+
+Example:
+
+[1:1000004:2] "LOCAL HTTP Connection Attempt Detected"
+{TCP} 127.0.0.1:56110 -> 127.0.0.1:80
